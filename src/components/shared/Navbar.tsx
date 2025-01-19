@@ -34,11 +34,11 @@ export default function Navbar() {
           </button>
           <Link href="/projects"><li className="hover:text-gray-600 cursor-pointer">Projects</li></Link>
           <Link href="/about"><li className="hover:text-gray-600 cursor-pointer">About</li></Link>
-          <Link href="/resume"><li className="hover:text-gray-600 cursor-pointer">Resume</li></Link>
+          <Link href="https://drive.google.com/file/d/1f5-dNO-f0iDQL3nCwHxMbNLw4LS123g3/view?usp=sharing"><li className="hover:text-gray-600 cursor-pointer">Resume</li></Link>
           <Link href="/contact"><li className="hover:text-gray-600 cursor-pointer">Contact</li></Link>
           <li>
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-              <Link href="mailto:somkeneoj@gmail.com">
+              <Link href="adebayodavidakin@gmail.com">
                 <button className="font-semibold text-sm font-sans bg-black text-white px-4 py-2 rounded hover:bg-gray-900 focus:outline-none">
                   <span className="blinking-dot inline-block bg-green-500 rounded-full w-2 h-2 mr-2"></span>
                   Let's Work!
