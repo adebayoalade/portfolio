@@ -13,6 +13,8 @@ import {
   IconBrandCss3,
   IconServer2,
 } from "@tabler/icons-react";
+import { GrMysql } from "react-icons/gr";
+import { SiPostgresql } from "react-icons/si";
 import { motion } from "framer-motion";
 import SlideIn from "./SlideIn";
 
@@ -29,6 +31,8 @@ function Skills() {
     { name: "Node.js", logo: <IconBrandNodejs size={48} className="text-green-800" /> },
     { name: "Express", logo: <IconServer2 size={48} className="text-gray-700" /> },
     { name: "MongoDB", logo: <IconBrandMongodb size={48} className="text-green-500" /> },
+    { name: "Mysql", logo: <GrMysql size={48} className="text-green-500" /> },
+    { name: "Postgresql", logo: <SiPostgresql size={48} className="text-green-500" /> },
     { name: "Docker", logo: <IconBrandDocker size={48} className="text-indigo-700" /> }
   ];
 

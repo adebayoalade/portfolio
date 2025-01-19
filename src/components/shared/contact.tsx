@@ -14,29 +14,22 @@ import {
         icon: (
           <IconBrandLinkedin className="hover:text-black h-6 w-6 text-gray-600 dark:text-neutral-300" />
         ),
-        href: "https://www.linkedin.com/in/somkene-ojukwu/",
+        href: "https://www.linkedin.com/in/adebayo-david-6b1299237/",
       },
       {
         title: "GitHub",
         icon: (
           <IconBrandGithub className="hover:text-black h-6 w-6 text-gray-600 dark:text-neutral-300" />
         ),
-        href: "https://github.com/somkenemuscle",
+        href: "https://github.com/adebayoalade",
       },
       {
         title: "E-mail",
         icon: (
           <IconBrandGmail className="hover:text-black h-6 w-6 text-gray-600 dark:text-neutral-300" />
         ),
-        href: "mmailto:somkeneoj@gmail.com",  // Replace with your actual email
+        href: "adebayodavidakin@gmail.com",  // Replace with your actual email
       },
-      {
-        title: "Twitter",
-        icon: (
-          <IconBrandX className="hover:text-black h-6 w-6 text-gray-600 dark:text-neutral-300" />
-        ),
-        href: "https://x.com/somkeneOj",
-      }
     ];
   
     return (
@@ -46,7 +39,7 @@ import {
           <div className="mb-4 sm:mb-0">
             <span className="text-gray-500 text-sm">Reach out to me <span aria-hidden="true">→</span></span> <br />
             <Link href="mailto:somkeneoj@gmail.com">
-              <span className="text-xl hover:underline">somkeneoj@gmail.com</span>
+              <span className="text-xl hover:underline">adebayodavidakin@gmail.com</span>
             </Link>
           </div>
   

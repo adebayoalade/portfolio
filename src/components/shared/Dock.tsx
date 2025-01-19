@@ -10,7 +10,7 @@ export function FloatingDockDemo() {
             icon: (
                 <LinkedInLogoIcon className="h-full w-full text-[#38BDF9] dark:text-neutral-300" />
             ),
-            href: "https://www.linkedin.com/in/roland-ibiwoye/",
+            href: "https://www.linkedin.com/in/adebayo-david-6b1299237/",
         },
         {
             title: "Twitter",
@@ -24,7 +24,7 @@ export function FloatingDockDemo() {
             icon: (
                 <GitHubLogoIcon className="h-full w-full text-purple-950 dark:text-neutral-300" />
             ),
-            href: "https://github.com/rolandaayo",
+            href: "https://github.com/adebayoalade",
         },
 
     ];

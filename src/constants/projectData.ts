@@ -1,44 +1,44 @@
 export const projectData = [
     {
-        title: "Appvarsity",
+        title: "Payhive Dashboard",
         description:
             "A platform dedicated to bridging the gap in information and resources for Aptech students by providing them with essential tools and support tailored to their needs. ",
-        technologies: ["React","Next.js", "MongoDB", "Tailwind", "Express.js", "Typescript"],
-        livePreview: "https://appvarsity.vercel.app/",
+        technologies: ["html","javascript", "Tailwind"],
+        livePreview: "https://payhive-dashboard.vercel.app",
         caseStudy: "#",
-        sourceCode: "https://github.com/somkenemuscle/AppVarsity",
-        image: "/assets/images/ap.jpg",
+        sourceCode: "https://github.com/adebayoalade/PayhiveDashboard.git",
+        image: "/assets/images/payhive.JPG",
     },
     {
-        title: "Retweet",
+        title: "Recipe-finder",
         description:
             "A fun and interactive social media platform designed for sharing posts and connecting with friends, built specifically for my school or any community and friends to create our very own online hangout space! 😂",
-        technologies: ["React","Tailwind", "Next.js", "Typescript", "Express.js", "MongoDb"],
-        livePreview: "https://retweet-frontend.vercel.app/",
+        technologies: ["Next.js","Tailwind", "Typescript"],
+        livePreview: "https://recipe-finder-eosin.vercel.app",
         caseStudy: "#",
-        sourceCode: "https://github.com/somkenemuscle/Retweet-backend",
-        image: "/assets/images/retweet.jpg",
+        sourceCode: "https://github.com/adebayoalade/recipe-finder.git",
+        image: "/assets/images/Recipe.JPG",
     },
     {
-        title: "SwiftDocs",
+        title: "Morent-ecommerce",
         description:
             "A live document collaboration application that allows users worldwide to share a common space and exchange innovative ideas seamlessly.",
-        technologies: ["React","Tailwind", "MongoDb", "Express.js", "Typescript"],
-        livePreview: "https://swiftdocs.vercel.app/",
+        technologies: ["React","Tailwind", "MongoDb", "Express.js"],
+        livePreview: "https://morent-project.vercel.app",
         caseStudy: "#",
-        sourceCode: "https://github.com/somkenemuscle/Swift-Docs",
-        image: "/assets/images/sd.jpg",
+        sourceCode: "https://github.com/adebayoalade/MORENT-PROJECT.git",
+        image: "/assets/images/morent..JPG",
     },
 
     {
-        title: "Decorvista",
+        title: "client-ecommerce",
         description:
             "An e-commerce platform that allows users to shop for home design appliances and connect with interior designers, creating a collaborative space to showcase and explore innovative designs.",
-        technologies: ["React", "Bootstrap", "Javascript", "Express.js", "MongoDb"],
-        livePreview: "https://decorvista.vercel.app/",
+        technologies: ["React", "tailwindcss", "Javascript", "Express.js", "MongoDb"],
+        livePreview: "https://client-commerce.vercel.app",
         caseStudy: "#",
-        sourceCode: "https://github.com/somkenemuscle/decorvista",
-        image: "/assets/images/decor.jpg",
+        sourceCode: "https://github.com/adebayoalade/client-commerce.git",
+        image: "/assets/images/ecommerce.JPG",
     },
 
 ];
