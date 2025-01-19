@@ -2,7 +2,7 @@ export const projectData = [
     {
         title: "Payhive Dashboard",
         description:
-            "A platform dedicated to bridging the gap in information and resources for Aptech students by providing them with essential tools and support tailored to their needs. ",
+            "A payment dashboard designed to manage functionalities such as deposits, transfers, money conversions, wallet-to-wallet transfers, withdrawals, requests, card management, and sending money ",
         technologies: ["html","javascript", "Tailwind"],
         livePreview: "https://payhive-dashboard.vercel.app",
         caseStudy: "#",
@@ -12,7 +12,7 @@ export const projectData = [
     {
         title: "Recipe-finder",
         description:
-            "A fun and interactive social media platform designed for sharing posts and connecting with friends, built specifically for my school or any community and friends to create our very own online hangout space! 😂",
+            "A Recipe Finder platform that allows users to discover recipes by selecting items based on calories, dietary preferences, and meal types, providing personalized and health-conscious meal options",
         technologies: ["Next.js","Tailwind", "Typescript"],
         livePreview: "https://recipe-finder-eosin.vercel.app",
         caseStudy: "#",
@@ -22,7 +22,7 @@ export const projectData = [
     {
         title: "Morent-ecommerce",
         description:
-            "A live document collaboration application that allows users worldwide to share a common space and exchange innovative ideas seamlessly.",
+            "A car rental platform that enables users to browse available cars, hire them, and make secure payments through Stripe, providing a seamless booking experience",
         technologies: ["React","Tailwind", "MongoDb", "Express.js"],
         livePreview: "https://morent-project.vercel.app",
         caseStudy: "#",
@@ -33,7 +33,7 @@ export const projectData = [
     {
         title: "client-ecommerce",
         description:
-            "An e-commerce platform that allows users to shop for home design appliances and connect with interior designers, creating a collaborative space to showcase and explore innovative designs.",
+            "A client-commerce platform that allows users to select items, add them to their cart, and complete secure payments via Paystack for a smooth shopping experience.",
         technologies: ["React", "tailwindcss", "Javascript", "Express.js", "MongoDb"],
         livePreview: "https://client-commerce.vercel.app",
         caseStudy: "#",
