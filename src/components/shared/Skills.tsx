@@ -27,7 +27,7 @@ function Skills() {
     { name: "Bootstrap", logo: <IconBrandBootstrap size={48} className="text-purple-600" /> },
     { name: "Tailwind", logo: <IconBrandTailwind size={48} className="text-teal-500" /> },
     { name: "ReactJs", logo: <IconBrandReact size={48} className="text-blue-500" /> },
-    { name: "Next.js", logo: <IconBrandNextjs size={48} className="text-black" /> },
+    { name: "Next.js", logo: <IconBrandNextjs size={48} className="text-blue-500" /> },
     { name: "Node.js", logo: <IconBrandNodejs size={48} className="text-green-800" /> },
     { name: "Express", logo: <IconServer2 size={48} className="text-gray-700" /> },
     { name: "MongoDB", logo: <IconBrandMongodb size={48} className="text-green-500" /> },
