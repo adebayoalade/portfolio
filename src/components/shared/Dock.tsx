@@ -13,13 +13,6 @@ export function FloatingDockDemo() {
             href: "https://www.linkedin.com/in/adebayo-david-6b1299237/",
         },
         {
-            title: "Twitter",
-            icon: (
-                <TwitterLogoIcon className="h-full w-full text-neutral-800 dark:text-neutral-300" />
-            ),
-            href: "https://x.com/theayotomiwa",
-        },
-        {
             title: "GitHub",
             icon: (
                 <GitHubLogoIcon className="h-full w-full text-purple-950 dark:text-neutral-300" />
