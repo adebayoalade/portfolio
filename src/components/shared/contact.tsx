@@ -63,7 +63,7 @@ import {
         <footer className="mt-10 text-center">
           <hr />
           <br />
-          <span className="font-light text-sm text-gray-600">Copyright  2024 - Ojukwu Somkene.</span>
+          <span className="font-light text-sm text-gray-600">Copyright  2024 - Adebayo David.</span>
   
         </footer>
       </div>
