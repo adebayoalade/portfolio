@@ -75,16 +75,15 @@ const Contact = () => {
           </form>
         </div>
         <div className="w-full h-[450px]">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.30596073366!2d-74.25986548248684!3d40.69714941932609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1644242702450!5m2!1sen!2s"
-            width="100%"
-            height="100%"
-            style={{ border: 0 }}
-            allowFullScreen
-            loading="lazy"
-            title="location map"
-            className="rounded-lg shadow-xl"
-          />
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.9689649720613!2d3.352884273688817!3d6.650768793343942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b93f5be7b6483%3A0x69693028bfeae089!2sVictory%20Estate%20(VECDA)!5e0!3m2!1sen!2sng!4v1737885584255!5m2!1sen!2sng" 
+        width="100%" 
+        height="100%" 
+        style={{border: 0}} 
+        allowFullScreen={true}
+        loading="lazy" 
+        referrerPolicy="no-referrer-when-downgrade">
+        </iframe> 
         </div>
       </div>
     </div>
