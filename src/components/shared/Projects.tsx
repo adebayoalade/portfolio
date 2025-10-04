@@ -37,15 +37,11 @@ export const Projects = () => {
                                     <h2 className="text-xl font-bold mb-4">{project.title}</h2>
                                     <p className="text-gray-700 mb-4 font-light">{project.description}</p>
                                     <div className="flex gap-2 mb-4">
-                                        {/* <Link href={project.caseStudy} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:underline">
-                                            Case Study -
-                                        </Link> */}
                                         <Link href={project.sourceCode} target="_blank" rel="noopener noreferrer" className="text-gray-500 text-sm mb-4  hover:underline">
                                             <div className="flex items-center space-x-1">
                                                 <GitHubLogoIcon className="h-4 w-4 text-indigo-950 dark:text-neutral-300" />
                                                 <span className="text-indigo-950 font-normal">Source Code ...</span>
                                             </div>
-
                                         </Link>
                                     </div>
                                     <div className="flex flex-wrap gap-2 mb-4">

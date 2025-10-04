@@ -56,11 +56,11 @@ function Skills() {
           <motion.div
             key={skill.name}
             className="flex flex-col items-center"
-            variants={skillVariants} // Apply the animation variants
-            initial="hidden" // Initial animation state
-            whileInView="visible" // Animation state when the element is in view
-            viewport={{ once: true, amount: 0.2 }} // Controls when the element should animate
-            transition={{ duration: 0.5, delay: index * 0.1 }} // Duration and delay for a staggered effect
+            variants={skillVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.2 }}
+            transition={{ duration: 0.5, delay: index * 0.1 }}
           >
             {skill.logo}
 

@@ -20,14 +20,14 @@ export const projectData = [
         image: "/assets/images/Recipe.JPG",
     },
     {
-        title: "Morent-ecommerce",
+        title: "Fintech Dashboard Interface",
         description:
             "A car rental platform that enables users to browse available cars, hire them, and make secure payments through Stripe, providing a seamless booking experience",
-        technologies: ["React","Tailwind", "MongoDb", "Express.js"],
-        livePreview: "https://morent-project.vercel.app",
+        technologies: ["Next.js","TypeScript", "Tailwind"],
+        livePreview: "https://task-dvan.vercel.app/",
         caseStudy: "#",
-        sourceCode: "https://github.com/adebayoalade/MORENT-PROJECT.git",
-        image: "/assets/images/morent..JPG",
+        sourceCode: "https://github.com/adebayoalade/Task.git",
+        image: "/assets/images/dashboard.JPG",
     },
 
     {

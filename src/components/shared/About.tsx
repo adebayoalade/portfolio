@@ -1,10 +1,10 @@
 'use client'
+import { SiNextdotjs,SiTypescript } from "react-icons/si";
 import {
     IconBrandReact,
-    IconBrandMongodb,
     IconBrandTailwind,
     IconBrandGit,
-    IconServer2
+    IconServer2,
 } from "@tabler/icons-react";
 import { TbBrandJavascript } from "react-icons/tb";
 import { BiLogoPostgresql } from "react-icons/bi";
@@ -19,18 +19,17 @@ const About = () => {
         { logo: <BiLogoPostgresql size={24} className="text-green-500" />, name: "Postgresql" },
     ];
     const technologies2 = [
-        { logo: <IconBrandReact size={24} className="text-blue-500" />, name: "React" },
+        { logo: <SiNextdotjs size={24} className="text-blue-500" />, name: "Next.js" },
         { logo: <TbBrandJavascript size={24} className="text-blue-600" />, name: "Javascript" },
+        { logo: <SiTypescript size={24} className="text-blue-600" />, name: "TypeScript" },
         { logo: <IconBrandTailwind size={24} className="text-teal-500" />, name: "Tailwind" },
-        { logo: <IconBrandMongodb size={24} className="text-green-500" />, name: "MongoDB" },
-        { logo: <IconServer2 size={24} className="text-teal-500" />, name: "Express" },
         { logo: <IconBrandGit size={24} className="text-orange-600" />, name: "Git" },
 
     ];
     // Animation variants for each skill
     const skillVariants = {
-        hidden: { opacity: 0, y: 50 }, // Starting state
-        visible: { opacity: 1, y: 0 }, // Ending state
+        hidden: { opacity: 0, y: 50 },
+        visible: { opacity: 1, y: 0 }, 
     };
 
 
@@ -42,12 +41,12 @@ const About = () => {
                     <div className="text-center md:text-left">
                         <h2 className="text-3xl text-center font-semibold mb-4 text-white">About <span className="text-yellow-400">Me</span> </h2>
                         <p className="font-light">
-                            With over 2 years of experience as a <span className="font-semibold">Full-stack developer and transition into Mobile Developer</span> , I have had a deep passion for creating and building things. My journey into
+                            With over 2 years of experience as a <span className="font-semibold">Frontend Engineer</span> , I have had a deep passion for creating and building things. My journey into
                             software engineering was driven by my love for creation, which began with drawing and making music. This creative inclination naturally
                             led me to explore the world of technology and software development.
                         </p>
                         <p className="font-light mt-5">
-                            I specialize in both <span className="font-semibold">Frontend </span> and <span className="font-semibold">Backend </span> development, having worked extensively in both areas. I thrive on the continuous learning
+                            I specialize in both <span className="font-semibold">Frontend </span> and <span className="font-semibold">Backend </span> Engineer, having worked extensively in both areas. I thrive on the continuous learning
                             process that coding offers and relish the opportunity to apply new knowledge to solve real-world problems. Coding, for me, is more
                             than just a profession, it is a hobby and a source of joy.
                         </p>
@@ -65,7 +64,7 @@ const About = () => {
                             <h3 className="text-xl font-semibold mb-4 text-white">Work Experience</h3>
                             <ul className="grid grid-cols-1 md:grid-cols-2 gap-8 text-white">
                                 <li>
-                                    <h4 className="text-xl font-bold">Full stack developer, Payhive</h4>
+                                    <h4 className="text-xl font-bold">Frontend Engineer, Payhive</h4>
                                     <span className="text-sm text-white">July,2024 - September,2024</span>
                                     <p className="mt-2 text-md font-light">
                                         I designed and implemented a payment dashboard with secure money transfer capabilities, including Naira-to-USSD currency conversions, local wallet-to-wallet transfers, interactive user functionalities, sidebar features, and API integrations to streamline front-end and back-end communication
@@ -76,11 +75,11 @@ const About = () => {
                                             <motion.div
                                                 key={index}
                                                 className="flex flex-col items-center"
-                                                variants={skillVariants} // Apply the animation variants
-                                                initial="hidden" // Initial animation state
-                                                whileInView="visible" // Animation state when the element is in view
+                                                variants={skillVariants} 
+                                                initial="hidden"
+                                                whileInView="visible"
                                                 viewport={{ once: true, amount: 0.2 }} // Controls when the element should animate
-                                                transition={{ duration: 0.5, delay: index * 0.1 }} // Duration and delay for a staggered effect
+                                                transition={{ duration: 0.5, delay: index * 0.1 }} 
                                             >
                                                 <button
                                                     key={index}
@@ -94,10 +93,10 @@ const About = () => {
                                     </div>
                                 </li>
                                 <li>
-                                    <h4 className="text-xl font-bold">Full stack developer Intern, Boostytech</h4>
+                                    <h4 className="text-xl font-bold">Frontend Engineer, Boosty Inc</h4>
                                     <span className="text-sm text-white">Oct 2024 - present</span>
                                     <p className="mt-2 text-md font-light">
-                                        I designed and developed full-stack applications with seamless user experiences, responsive designs, and cross-platform compatibility. Built and maintained dynamic databases, implemented CRUD operations in MongoDB, and integrated APIs for enhanced functionality. Conducted thorough testing and debugging to ensure reliability and security.
+                                        I design and develop responsive, user-friendly interfaces using React.js, Next.js, and Tailwind CSS,Implement modern UI/UX best practices to deliver seamless user experiences across devices,Collaborate with backend teams to integrate RESTful APIs and GraphQL into front-end applications,Optimize performance, accessibility, and cross-browser compatibility for web applications,Write clean, reusable, and maintainable code following industry standards,Conduct testing, debugging, and deployment to ensure high-quality and reliable applications.
                                         <span className="block mt-2 font-semibold">Technologies Used <span aria-hidden="true">→</span></span>
                                     </p>
                                     <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-2">
@@ -105,11 +104,11 @@ const About = () => {
                                             <motion.div
                                                 key={index}
                                                 className="flex flex-col items-center"
-                                                variants={skillVariants} // Apply the animation variants
-                                                initial="hidden" // Initial animation state
-                                                whileInView="visible" // Animation state when the element is in view
-                                                viewport={{ once: true, amount: 0.2 }} // Controls when the element should animate
-                                                transition={{ duration: 0.5, delay: index * 0.1 }} // Duration and delay for a staggered effect
+                                                variants={skillVariants}
+                                                initial="hidden"
+                                                whileInView="visible"
+                                                viewport={{ once: true, amount: 0.2 }}
+                                                transition={{ duration: 0.5, delay: index * 0.1 }}
                                             >
                                                 <button
                                                     key={index}

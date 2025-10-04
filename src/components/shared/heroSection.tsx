@@ -19,7 +19,7 @@ function HeroSection() {
                 Adebayo <span className="text-pink-200">David</span> <span className="text-white">Alade</span>
               </h1>
               <p className="mt-6 text-lg  font-light leading-8 ">
-                <span className="text-gray-500 ">I am a </span><span className="text-white font-bold">Full-Stack and Mobile developer</span>  <span className="text-gray-500 ">based in</span> <span className="font-extrabold bg-gradient-to-r from-green-500 via-white to-green-500 bg-clip-text text-transparent">Lagos, Nigeria</span>, dedicated to building web applications that seamlessly combine functionality and aesthetics. <span className="font-semibold text-orange-300">"For me, coding is more than a profession, it's a creative passion that fuels my drive to innovate and solve problems."</span>
+                <span className="text-gray-500 ">I am a </span><span className="text-white font-bold">Frontend Engineer</span>  <span className="text-gray-500 ">based in</span> <span className="font-extrabold bg-gradient-to-r from-green-500 via-white to-green-500 bg-clip-text text-transparent">Lagos, Nigeria</span>, dedicated to building web applications that seamlessly combine functionality and aesthetics. <span className="font-semibold text-orange-300">"For me, coding is more than a profession, it's a creative passion that fuels my drive to innovate and solve problems."</span>
               </p>
               <div className="flex items-center justify-center gap-x-6">
                 <FloatingDockDemo />
